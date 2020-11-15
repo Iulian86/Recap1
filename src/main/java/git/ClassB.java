@@ -2,7 +2,8 @@ package git;
 
 public class ClassB {
 
-    public void sayHi(){
-        System.out.println("Hi");
+    public void sayHi(String name){
+        System.out.println("Hi" + name);
     }
+
 }
